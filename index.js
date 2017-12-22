@@ -9,5 +9,5 @@ const app = document.getElementById('app');
 const holaMundo = <h1>Hola Mundo!</h1>;
 // Insertamos en una constante lo que queremos renderizar
 
-render(<Media />, app);
+render(<Media type="audio" title="¿Qué es responsive design?" author="Arnold Restrepo" image="./images/covers/responsive.jpg"/>, app);
 // Le decimos a ReactDOM que renderizar y donde renderizar
