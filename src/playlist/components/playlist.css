@@ -1,0 +1,28 @@
+.Playlist{
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    padding-bottom: 80px;
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.Playlist-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #44546b;
+    margin: 0;
+    display:block;
+    margin-bottom: 1rem;
+}
+.Playlist-description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #44546b;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    display:block;
+}
