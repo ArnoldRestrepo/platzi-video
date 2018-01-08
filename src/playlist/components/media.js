@@ -15,12 +15,7 @@ class Media extends React.PureComponent {
     componentWillMount(){
         
     }
-    handleClick = (event) => {
-        // alert(this.props.image)
-        this.setState({
-            author: 'Ulala'
-        })
-    }
+   
     render(){
         const { title, author, cover } = this.props;
 
@@ -36,7 +31,7 @@ class Media extends React.PureComponent {
             }
         }
         return(
-            <div className="Media" onClick={this.handleClick}>
+            <div className="Media" onClick={this.props.handleClick}>
                 <div className="Media-cover">
                     <img 
                         src={cover}

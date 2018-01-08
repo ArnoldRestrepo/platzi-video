@@ -1,0 +1,17 @@
+.Category{margin-bottom: 1rem;}
+
+.Category-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3F546C;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.Category-description{
+    color: #888B8E;
+    font-weight: 300;
+    margin: 0;
+    font-size: 14px;
+}
